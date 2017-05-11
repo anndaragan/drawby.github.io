@@ -25,7 +25,7 @@
     <link rel="stylesheet/less" type="text/css" href="assets/less/main.less" />
     <!-- LESS JavaScript компілятор -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
-    <meta property="og:image" content="assets/images/spottyLogo.png" />
+    <meta property="og:image" content="Frontend/www/assets/images/spottyLogo.png" />
     <meta property="og:description"   content="HELLO" />
 </head>
 <body>
@@ -38,45 +38,45 @@
 <div id="myModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <img src = "assets/images/welcome.png" class = "speechBalloon" alt = "welcome">
-        <img src = "assets/images/spottyLogo.png" class = "spottyLogo" alt = "fun dalmatian">
+        <img src = "Frontend/www/assets/images/welcome.png" class = "speechBalloon" alt = "welcome">
+        <img src = "Frontend/www/assets/images/spottyLogo.png" class = "spottyLogo" alt = "fun dalmatian">
         <img src ="" id="result">
     </div>
 </div>
 <div class = "container">
     <div class = "row logo-block">
-    <img src = "assets/images/ribbon.png" class = "ribbon">
-    <img src="assets/images/spotty.png" class = "logo">
+    <img src = "Frontend/www/assets/images/ribbon.png" class = "ribbon">
+    <img src="Frontend/www/assets/images/spotty.png" class = "logo">
     </div>
 </div>
 <div class="container">
 <div class = "row workspace">
 <div class = "col-md-3 col-xs-3">
     <a href= "#" class = "pikachu"><img src="Frontend/www/assets/images/pikachu.JPG" class = "dotpic img-thumbnail " alt="dots"></a>
-    <a href= "#" class = "rabbit"><img src="assets/images/rabbit.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
-    <a href= "#" class = "fish"><img src="assets/images/fish.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
+    <a href= "#" class = "rabbit"><img src="Frontend/www/assets/images/rabbit.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
+    <a href= "#" class = "fish"><img src="Frontend/www/assets/images/fish.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
 </div>
 <div class = "col-md-6 col-xs-6 demo" id='colors_demo' >
     <canvas id='colors_sketch'  width="500" height="500" style='border: 6px double #568d8a'></canvas>
     <div class='tools' style='border: 1px solid #568d8a'>
-        <a href="#colors_sketch" data-tool="eraser"><img src="assets/images/eraser.png" alt="erase everything" class = "eraser"></a>
+        <a href="#colors_sketch" data-tool="eraser"><img src="Frontend/www/assets/images/eraser.png" alt="erase everything" class = "eraser"></a>
         <span class = "palette"></span>
 
     <script type='text/javascript'>
         $(function() {
-                $('.palette').append("<a  href='#colors_sketch' data-color='#f00' data-tool='marker' >" + '<img class = "pencils" src = "assets/images/red.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#FF6600' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/orange.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#ff0' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/yellow.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#0f0' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/green.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#0ff' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/turqouise.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#00f' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/blue.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#f0f' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/purple.png">' + "</a> ");
-                $('.palette').append("<a href='#colors_sketch' data-color='#000' data-tool='marker'>" + '<img class = "pencils" src = "assets/images/black.png">' + "</a> ");
+                $('.palette').append("<a  href='#colors_sketch' data-color='#f00' data-tool='marker' >" + '<img class = "pencils" src = "Frontend/www/assets/images/red.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#FF6600' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/orange.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#ff0' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/yellow.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#0f0' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/green.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#0ff' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/turqouise.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#00f' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/blue.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#f0f' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/purple.png">' + "</a> ");
+                $('.palette').append("<a href='#colors_sketch' data-color='#000' data-tool='marker'>" + '<img class = "pencils" src = "Frontend/www/assets/images/black.png">' + "</a> ");
 
-                $('.tools').append("<a href='#colors_sketch' data-size='3'>" + '<img class = "size" src = "assets/images/size.png" style="max-width: 10px">' +"</a> ");
-                $('.tools').append("<a href='#colors_sketch' data-size='5' >"  + '<img class = "size" src = "assets/images/size.png" style="max-width: 15px">' +"</a> ");
-                $('.tools').append("<a href='#colors_sketch' data-size='10' >"  + '<img class = "size" src = "assets/images/size.png" style="max-width: 20px">' +"</a> ");
-                $('.tools').append("<a href='#colors_sketch' data-size='15' >"  + '<img class = "size" src = "assets/images/size.png" style="max-width: 30px">' +"</a> ");
+                $('.tools').append("<a href='#colors_sketch' data-size='3'>" + '<img class = "size" src = "Frontend/www/assets/images/size.png" style="max-width: 10px">' +"</a> ");
+                $('.tools').append("<a href='#colors_sketch' data-size='5' >"  + '<img class = "size" src = "Frontend/www/assets/images/size.png" style="max-width: 15px">' +"</a> ");
+                $('.tools').append("<a href='#colors_sketch' data-size='10' >"  + '<img class = "size" src = "Frontend/www/assets/images/size.png" style="max-width: 20px">' +"</a> ");
+                $('.tools').append("<a href='#colors_sketch' data-size='15' >"  + '<img class = "size" src = "Frontend/www/assets/images/size.png" style="max-width: 30px">' +"</a> ");
 
             $('#colors_sketch').sketch();
             ///
@@ -106,15 +106,15 @@
     <div class="fb-share-button" data-href="https://drawby.ga" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrawby.ga%2F&amp;src=sdkpreparse">Share picture</a></div>
 </div>
     <div class = "col-md-3 col-xs-3">
-        <a href= "#" class = "kitty"><img src="assets/images/kitty.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
-        <a href= "#" class = "pokemon"><img src="assets/images/pokemon.jpg" class = "dotpic img-thumbnail" alt="dots"></a>
-        <a href= "#" class = "corgi"><img src="assets/images/corgi.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
+        <a href= "#" class = "kitty"><img src="Frontend/www/assets/images/kitty.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
+        <a href= "#" class = "pokemon"><img src="Frontend/www/assets/images/pokemon.jpg" class = "dotpic img-thumbnail" alt="dots"></a>
+        <a href= "#" class = "corgi"><img src="Frontend/www/assets/images/corgi.JPG" class = "dotpic img-thumbnail" alt="dots"></a>
     </div>
 </div>
 </div>
-<script type="text/javascript" src="assets/js/sketch.js"></script>
-<script src="assets/js/reimg.js"></script>
-<script type="text/javascript" src="assets/js/main.js">
+<script type="text/javascript" src="Frontend/www/assets/js/sketch.js"></script>
+<script src="Frontend/www/assets/js/reimg.js"></script>
+<script type="text/javascript" src="Frontend/www/assets/js/main.js">
 </script>
 <script>
     window.fbAsyncInit = function() {
